@@ -1,0 +1,16 @@
+music
+movies
+gfx
+Screenshots
+save_games
+mod
+logs
+sound
+*.rar
+*.exe
+*.ico
+*.dat
+*.dll
+*.jpg
+*.pdf
+*.vdf
