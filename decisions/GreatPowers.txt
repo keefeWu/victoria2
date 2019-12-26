@@ -31,6 +31,7 @@ political_decisions = {
 		}
 	}
 
+	
 	forced_egyptological_excavations = {
 		potential = {
 			civilized = yes

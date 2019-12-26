@@ -168,7 +168,7 @@ COMBAT_DIGIN;·ÀÓù·½Íê±¸µÄÕ½º¾ÏµÍ³¶Ô¹¥»÷·½Ïàµ±²»Àû;;;;;;;;;;X
 PRODUCTION_COST_BUILD;½¨Éè³É±¾£º§Y$VAL$§W;;;;;;;;;;X
 PRODUCTION_COST_INPUT;Í¶Èë³É±¾£º§Y$VAL$§W;;;;;;;;;;X
 PRODUCTION_NO_PROJECT;Ã»ÓÐ¼Æ»®;;;;;;;;;;X
-PRODUCTION_PROJECT_MONEY;¸Ã¼Æ»®ÒÑ»ñµÃ§Y$MONEY$§W¤£¬¸Ã¼Æ»®¹²ÐèÒª§Y$NEED$§W¤;;;;;;;;;;X
+PRODUCTION_PROJECT_MONEY;¸Ã¼Æ»®ÒÑ»ñµÃ§Y$MONEY$§W¤£¬¸Ã¼Æ»®¹²ÐèÒª§Y$NEED$§W?;;;;;;;;;X
 WAR_HAS_COMPLETE_VICTORY;ÍêÈ«µÄÊ¤Àû;;;;;;;;;;X
 DIPLOMACY_CAN_INTERVENE;Õ½Õù¸ÉÉæ;;;;;;;;;;X
 DIPLOMACY_CANNOT_INTERVENE;Õ½Õù¸ÉÉæ\nÎÒÃÇ²»ÄÜ¼ÓÈëÕâÒ»·½ÒòÎª£º;;;;;;;;;;X
@@ -254,7 +254,7 @@ POP_DETAILS_COLONIAL_MIGRATION;Ö³ÃñÒÆÃñ£º;;;;;;;;;;X
 PRODUCTION_OUTPUT_YESTERDAY;×òÈÕ²úÁ¿£º§Y$VALUE$§W;;;;;;;;;;X
 PRODUCTION_OUTPUT_GOODS_TOOLTIP2;×î´ó²úÁ¿£º§Y$CURR$§W;;;;;;;;;;X
 PRODUCTION_CURRENT_STOCKPILE;ÏÖÓÐ´¢±¸£º§Y$VALUE$§W;;;;;;;;;;X
-POP_DAILY_INTEREST;´¢ÐîÀûÏ¢£º§Y$VAL$§W¤;;;;;;;;;;X
+POP_DAILY_INTEREST;´¢ÐîÀûÏ¢£º§Y$VAL$§W?;;;;;;;;;X
 MODIFIER_OVERSEAS_PRODUCTION_PENALTY;º£Íâ¹¤³§¼°Ô­ÁÏ²úµØ³Í·££º$VALUE$;;;;;;;;;;X
 PRODUCTION_FACTORY_EMPLOYEECOUNT_TOOLTIP2;ÏÖÓÐ¹ÍÔ±£º$EMPLOYEES$/$EMPLOYEE_MAX$;;;;;;;;;;X
 LIFERATING_EFFECT;$DIRECTION$$VALUE$Éú»îÌõ¼þ\n;;;;;;;;;;X
@@ -790,7 +790,7 @@ EVTNAME17170;¹ú¼Ê»¯µÄÅ®È¨Ö÷Òå;;;;;;;;;;X
 EVTDESC17170;µ±$COUNTRY$µÄÅ®È¨Ö÷ÒåÕßÃÇ´ï³ÉÁËËûÃÇµÄÄ¿±êµÄÊ±ºò£¬ºÜ¶àÆäËû¹ú¼ÒÒÀ¾ÉÈ±ÉÙÒ»¸öÄÜ¸úÉÏÊ±´ú£¬ÈËÈËÆ½µÈµÄÃñÖ÷ÖÆ¶È¡£ÔÚ¸÷ÖÖ¹ú¼Ê»áÒéÖÐÏòËû¹úÌá³öÕâµãÓ¦¸ÃÃ»ÓÐ»µ´¦£¬»òÕßÓÃ´ËÀ´×ªÒÆ¹úÄÚÃñÖÚµÄÊÓÏß¡£;;;;;;;;;;X
 EVTOPTA17170;ÎÒ²»ÈÏÎªËûÃÇ»áÀä¾²µÄ½ÓÊÜÕâµã¡­¡­;;;;;;;;;;X
 EVTOPTB17170;ÖÁÉÙÎÒÃÇ±ÈÄÇÐ©ÈËÇ¿¡­¡­;;;;;;;;;;X
-STATE_NONCORES;µØÇøµÄÎÞºËÐÄÊ¡·Ý£º§R$VALUE$§%§W;;;;;;;;;;X
+STATE_NONCORES;µØÇøµÄÎÞºËÐÄÊ¡·Ý£º§R$VALUE$?§W;;;;;;;;;;X
 DIPLOMACY_CANNOT_SET_PRIO_VASSAL;ÎÒ¹úÎÞ·¨Ó°ÏìÆäËû¹ú¼ÒµÄ§YÎÀÐÇ¹ú§W»ò§Y×ÔÖÎÁì§W;;;;;;;;;;X
 DIPLOMACY_NEGOTIATE_VASSAL;ÎÒ¹úÎÞ·¨Óë§YÎÀÐÇ¹ú§W»ò§Y×ÔÖÎÁì§W½øÐÐÍâ½»ÐÐ¶¯;;;;;;;;;;X
 DIPLOMACY_NEGOTIATE_WE_VASSAL;ÎÒ¹úÎÞ·¨ÓëÆäËû¹ú¼Ò½øÐÐÍâ½»ÐÐ¶¯Èç¹ûÎÒ¹úÊÇÒ»¸ö§YÎÀÐÇ¹ú§W»ò§Y×ÔÖÎÁì§W;;;;;;;;;;X
@@ -1368,8 +1368,8 @@ BUDGET_BANK_BIGGEST_INVESTORS;×î´óÍ¶×ÊÕß£º\n;;;;;;;;;;X
 POLITICS_ALREADY_RULING_PARTY;$PARTY$ÏÖÔÚÊÇÖ´Õþµ³¡£;;;;;;;;;;X
 POLITICS_CANNOT_SET_RULING_PARTY_RULE;ÎÒ¹úÕþÌå²»ÔÊÐíÎÒÃÇÖ¸¶¨Ö´Õþµ³;;;;;;;;;;X
 BANK_OF;$COUNTRY$ÒøÐÐ;;;;;;;;;;X
-TRADE_STOCKPILE_BUY;ÎÒ¹ú×òÈÕ»¨·ÑÁË§Y$MONEY$§W¤ ¹ºÂò§Y$UNITS$§Wµ¥Î»;;;;;;;;;;X
-TRADE_STOCKPILE_SOLD;ÎÒ¹ú×òÈÕÏúÊÛ§Y$UNITS$§Wµ¥Î»»ñµÃÁË§Y$MONEY$§W¤ ;;;;;;;;;;X
+TRADE_STOCKPILE_BUY;ÎÒ¹ú×òÈÕ»¨·ÑÁË§Y$MONEY$§W?¹ºÂò§Y$UNITS$§Wµ¥Î»;;;;;;;;;;X
+TRADE_STOCKPILE_SOLD;ÎÒ¹ú×òÈÕÏúÊÛ§Y$UNITS$§Wµ¥Î»»ñµÃÁË§Y$MONEY$§W?;;;;;;;;;;X
 annals_of_the_fulani_jihad_title;¸»À­ÄáÊ¥Õ½±àÄêÊ·;;;;;;;;;;X
 annals_of_the_fulani_jihad_desc;°¢²¼¶ÅÀ­¡¤µ¤¡¤¸¥µÏ°Â£¨Abdullahi dan Fodio£¬1766-1828£©ÊÇÀ¥¶Å£¨Gwandu£©µÄ°£Ã×¶û¡£ÔÚÆäÈÔÔÚÊÀÊ±£¬ËûÐ´ÁËÒ»±¾¹ØÓÚ¸»À­ÄáÊ¥Õ½µÄÊé£¬ÕýÊÇÔÚÕâ³¡´óÕ½µÄÏ´ÀñÏÂË÷¿ÆÍÐµ®ÉúÁË¡£Í¨¹ý´«²¥Õâ±¾ÀúÊ·Öø×÷µÄÒ»×ÖÒ»ÑÔ£¬ÎÒÃÇ¿ÉÒÔ»Ö¸´ÎÒ¹úµÄÈÙÒ«ÓëÉùÍþ¡£;;;;;;;;;;X
 become_negusa_nagast_title;ÍòÍõÖ®Íõ;;;;;;;;;;X
@@ -1399,8 +1399,8 @@ COUNTRYALERT_NO_LoosingGPStatus;ÎÒÃÇÏÖÔÚ²¢Î´ÕýÊ§È¥§YÁÐÇ¿§WµØÎ»;;;;;;;;;;X
 COUNTRYALERT_NO_GPStatus;ÎÒÃÇ»¹²»ÊÇ§YÁÐÇ¿§W;;;;;;;;;;X
 PEACE_DESC;ÌáÒéºÍÆ½;;;;;;;;;;X
 TOPBAR_TOP5_GOODS;ÎÒ¹úÉú²ú×î¶àµÄÎåÏîÎï×Ê£º;;;;;;;;;;X
-TOPBAR_HISTORICAL_INCOME;ÔÚ×î½üµÄ§Y$DAYS$§WÌìÄÚ£¬ÎÒÃÇµÄ×î¸ßÊÕÈëÎª$MAX$¤£¬ÎÒÃÇµÄ×îµÍÊÕÈëÎª$MIN$¤;;;;;;;;;;X
-TOPBAR_FUNDS;×òÌìÎÒÃÇÊÕÈë$YESTERDAY$¤£¬¹ú¿âµ±Ç°×Ê½ð§Y$CASH$§W¤;;;;;;;;;;X
+TOPBAR_HISTORICAL_INCOME;ÔÚ×î½üµÄ§Y$DAYS$§WÌìÄÚ£¬ÎÒÃÇµÄ×î¸ßÊÕÈëÎª$MAX$¤£¬ÎÒÃÇµÄ×îµÍÊÕÈëÎ?MIN$?;;;;;;;;;X
+TOPBAR_FUNDS;×òÌìÎÒÃÇÊÕÈë$YESTERDAY$¤£¬¹ú¿âµ±Ç°×Ê½ð§Y$CASH$§W?;;;;;;;;;X
 TOPBAR_AVG_LITERACY;ÎÒ¹úÃñÖÚµÄÆ½¾ù§YÊ¶×ÖÂÊ§WÎª§Y$AVG$§W%;;;;;;;;;;X
 TOPBAR_AVG_MIL;ÎÒ¹úÃñÖÚµÄÆ½¾ù§Y¶·ÕùÐÔ§WÎª§Y$AVG$§W;;;;;;;;;;X
 TOPBAR_AVG_CON;ÎÒ¹úÃñÖÚµÄÆ½¾ù§Y¾õÐÑ¶È§WÎª§Y$AVG$§W;;;;;;;;;;X
@@ -1419,7 +1419,7 @@ TOPBAR_UNEMPLOYED;ÔÚ$STATE$ÓÐ§Y$NUM$§WÃûÊ§ÒµµÄ§Y$TYPE$§W£¨Õ¼È«²¿µÄ$PERC$§W%£©;;;
 TOPBAR_XINY;§Y$Y$§WÄÚµÄ$X$;;;;;;;;;;X
 TOPBAR_AT_PEACE;´¦ÓÚºÍÆ½;;;;;;;;;;X
 TOPBAR_FACTION;§Y$NAME$§WÓµÓÐ§Y$STRENGTH$§W±©Í½£¬Æ½¾ù×éÖ¯¶È£º§Y$ORG$§W%;;;;;;;;;;X
-TOPBAR_PROJECTED_INCOME;Ô¤¼ÆÃ¿ÈÕÊÕÈë£º$VAL$¤;;;;;;;;;;X
+TOPBAR_PROJECTED_INCOME;Ô¤¼ÆÃ¿ÈÕÊÕÈë£º$VAL$?;;;;;;;;;X
 SIDEMENU_menubar_msg_combat;×ó¼üµã»÷ÒÔÏÔÊ¾ËùÓÐ§YÕ½¶·§WÐÅÏ¢¡£ÓÒ¼üµã»÷ÒÔÇå³ýËùÓÐ¡£;;;;;;;;;;X
 SIDEMENU_menubar_msg_diplo;×ó¼üµã»÷ÒÔÏÔÊ¾ËùÓÐ§YÍâ½»§WÐÅÏ¢¡£ÓÒ¼üµã»÷ÒÔÇå³ýËùÓÐ¡£;;;;;;;;;;X
 SIDEMENU_menubar_msg_unit;×ó¼üµã»÷ÒÔÏÔÊ¾ËùÓÐ§Yµ¥Î»§WÐÅÏ¢¡£ÓÒ¼üµã»÷ÒÔÇå³ýËùÓÐ¡£;;;;;;;;;;X
@@ -1441,7 +1441,7 @@ signed_the_geneva_convention_desc;ÎÒ¹úÊÇÈÕÄÚÍß¹«Ô¼µÄµÞÔ¼¹ú;;;;;;;;;;X
 sign_the_geneva_convention_title;Ç©ÊðÈÕÄÚÍß¹«Ô¼;;;;;;;;;;X
 sign_the_geneva_convention_desc;ÎÒ¹úÉÐÎ´Ç©ÊðÈÕÄÚÍß¹«Ô¼£¬Ëü¶¨ÒåÁËºÏÀíµÄÕ½ÕùÐÐÎªºÍÉËÔ±\nµÄ´¦Àí·½Ê½¡£ÎÒÃÇÈÔÈ»¿ÉÒÔÇ©ÊðËü¡£;;;;;;;;;;X
 PRODUCTION_SORT_BY_INFRA;»ù´¡ÉèÊ©;;;;;;;;;;X
-BUILD_ESTIMATED_COST;¿â´æÈ±ÉÙÎï×ÊµÄÔ¤¹À»¨·Ñ£º§R$COST$§W¤;;;;;;;;;;X
+BUILD_ESTIMATED_COST;¿â´æÈ±ÉÙÎï×ÊµÄÔ¤¹À»¨·Ñ£º§R$COST$§W?;;;;;;;;;X
 PRODUCTION_NEED_TECH;ÎÒÃÇÍê³É¶Ô§Y$TECH$§WµÄÑÐ¾¿²ÅÄÜÉú²ú§Y$GOOD$§W;;;;;;;;;;X
 PRODUCTION_NEED_FACTORY;ÒªÉú²ú§Y$GOOD$§W£¬ÎÒÃÇ±ØÐë½¨ÉèÒ»×ù§Y$FACTORY$§W;;;;;;;;;;X
 PRODUCTION_NEED_RGO;ÒªÉú²ú§Y$GOOD$§W£¬ÎÒÃÇÐèÒªÒ»¸öÉú²úËüµÄÊ¡·Ý;;;;;;;;;;X

@@ -1,0 +1,36 @@
+political_decisions = {
+	shower = {
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = shower
+			}
+		}
+		allow = {
+			is_greater_power = yes
+		}
+		effect = {
+			country_event = { id=12580 days=0 }
+			set_country_flag = shower
+		}
+	}
+	
+	accepted_chinese = {
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = accepted_chinese
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			prestige = 30
+		}
+		effect = {
+			primary_culture = hanren
+			add_accepted_culture = british
+			badboy = +20
+			set_country_flag = accepted_chinese
+		}
+	}
+}

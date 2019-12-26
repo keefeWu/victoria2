@@ -1,0 +1,42 @@
+province_event = {
+	id = 23333
+	title = "EVTNAME23333"
+	desc = "EVTDESC23333"
+	
+	trigger = {
+		province_id = 860
+		NOT = {
+			has_country_flag = istanbul_family_panning
+		}
+	}
+	mean_time_to_happen = {
+		months = 15
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			NOT = {
+				year = 1855
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA23333"
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+				is_accepted_culture = no
+			}
+		reduce_pop = 0.1
+		set_country_flag = istanbul_family_panning
+		}
+		add_province_modifier = {
+			name = family_planning
+			duration = 365
+		}
+	}
+}

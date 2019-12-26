@@ -1,0 +1,30 @@
+
+country_event = {
+
+	id = 38324 
+
+	trigger = {
+		ai = no
+		has_country_flag = uniform_africa
+	}
+ 
+
+	title = "EVTNAME30000"
+	desc = "EVTDESC30000"
+	picture = "Worldsfair"
+
+	option = {
+		name = "EVTOPTB30000" # maybe another time
+		any_country = {
+			any_owned = {
+				limit = {
+					continent = africa
+				}
+				add_core = THIS
+				secede_province = THIS
+				set_country_flag = uniform_africa
+			}
+		}
+		
+	}
+}

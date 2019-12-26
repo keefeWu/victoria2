@@ -632,13 +632,14 @@ fertilizer_factory = {
 
 fort = {      
 	type = fort
+	cost = -15000
 	goods_cost =
 	{
-		lumber = 100
-		cement = 100
-		explosives = 50
-		small_arms = 50
-		artillery = 40
+		lumber = 1
+		cement = 1
+		explosives = 1
+		small_arms = 1
+		artillery = 1
 	}
 	time = 1080 
 	visibility = yes
@@ -646,18 +647,20 @@ fort = {
 	max_level = 6
 	province = yes
 	fort_level = 1
+	pop_build_factory = yes
 }
 
 naval_base = {    
 	type = naval_base
-	cost = 15000
+	cost = -15000
 	goods_cost =
 	{
-		timber = 50
-		lumber = 50
-		cement = 100
-		steel = 100
+		timber = 1
+		lumber = 1
+		cement = 1
+		steel = 1
 		machine_parts = 1
+		pop_build_factory = yes
 	}
 	time = 1080
 	naval_capacity = 1
